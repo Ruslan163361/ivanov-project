@@ -1,0 +1,11 @@
+showTodos:
+  path: /todos
+  controller: App\Controller\TodosController::showAllTodos
+ 
+showUnCompletedTodos:
+  path: /
+  controller: App\Controller\TodosController::showUnCompletedTodos
+
+completeTodo:
+  path: /complete
+  controller: App\Controller\TodosController::setCompleteTodo
